@@ -1,11 +1,12 @@
 import ArrowIcon from "@/assets/arrow-right.svg";
 import cogImage from "@/assets/cog.png";
 import cylinderImage from "@/assets/cylinder.png";
+import noodleImage from "@/assets/noodle.png";
 import Image from "next/image";
 
 export const Hero = () => {
   return (
-    <section className="pt-8 pb-20 md:pt-5 md:pb-10 bg-[radial-gradient(ellipse_200%_100%_at_bottom_left,#183ec2,#eaeefe_100%)]">
+    <section className="pt-8 pb-20 md:pt-5 md:pb-10 bg-[radial-gradient(ellipse_200%_100%_at_bottom_left,#183ec2,#eaeefe_100%)] overflow-x-clip">
       <div className="container">
         <div className="md:flex items-center">
           <div className="md:w-[478px]">
@@ -32,7 +33,7 @@ export const Hero = () => {
             <Image
               src={cogImage}
               alt="Cog image"
-              className="md:absolute md:h-full md:w-auto md:max-w-none"
+              className="md:absolute md:h-full md:w-auto md:max-w-none md:-left-6 lg:left-0"
             />
             <Image
               src={cylinderImage}
@@ -40,6 +41,12 @@ export const Hero = () => {
               width={220}
               height={220}
               className="hidden md:block -top-8 -left-32 md:absolute"
+            />
+            <Image
+              src={noodleImage}
+              width={220}
+              alt="noodleImage"
+              className="hidden lg:block absolute top-[524px] left-[448px] rotate-[30deg]"
             />
           </div>
         </div>
