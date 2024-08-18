@@ -29,7 +29,9 @@ export const Footer = () => {
           <SocialPin />
           <SocialYoutube />
         </div>
-        <p className="mt-6">&copy; 2024 Your Company, Inc. All rights reserved.</p>
+        <p className="mt-6">&copy; 2024 Your Company, Inc. All rights reserved.
+          <br /><Link className="hover:text-white transition-all" href="https://github.com/MiladJoodi/Light-Saas-Landing-Page">Make with ❤️ by Joodi</Link>
+        </p>
       </div>
     </footer>
   );
