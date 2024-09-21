@@ -1,6 +1,6 @@
 # Digibrand Intern Project
 
-<h4>A website for your business with this SaaS website UI Kit featuring multiple layouts, breakpoints, and 3D elements in different styles. ✔️ 🚀</h4>  
+<h4>This project involves creating a comprehensive website for your business using a versatile SaaS website UI Kit. The kit includes a variety of layouts, responsive breakpoints, and engaging 3D elements in diverse styles, ensuring a dynamic and visually appealing user experience. ✔️ 🚀</h4>  
 
 [Demo](https://saas-landing-page-chi-six.vercel.app/).\
 Thank you sincerely. 🙏
